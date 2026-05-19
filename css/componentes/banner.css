@@ -1,0 +1,78 @@
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 580px 1fr;
+  height: 740px;
+  overflow: hidden;
+}
+
+.banner-column {
+  position: relative;
+}
+
+.banner-column img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.center-column {
+  background: #e5e3de;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center-header-text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 110px 40px 0 40px;
+  box-sizing: border-box;
+  background: #e2e2e2;
+}
+
+.hashtag {
+  font-size: 22px;
+  font-weight: 600;
+  color: #2e2e2e;
+}
+
+.discount {
+  font-size: 22px;
+  font-weight: 400;
+  color: #2e2e2e;
+}
+
+.discount strong {
+  color: #c7183c;
+}
+
+.product-img {
+  width: 420px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  object-fit: contain;
+}
+
+.btn-conferir {
+  width: 280px;
+  height: 54px;
+  background: #c7183c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 10px;
+  transition: 0.2s;
+}
+
+.btn-conferir:hover {
+  background-color: #a51432;
+}
