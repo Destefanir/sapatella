@@ -4,7 +4,11 @@
   align-items: center;
   padding: 0px 60px;
   height: 86px;
-  background-color: rgba(20, 20, 20, 0, 92);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
   position: absolute;
   width: 100%;
   top: 0;
