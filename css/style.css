@@ -1,8 +1,13 @@
-@import "./global/global.css";
-@import "./global/header.css";
-@import "./global/footer.css";
+/* BASE */
+@import "./base/global.css";
 
-/* componentes */
+/* LAYOUT */
+@import "./layout/header.css";
+@import "./layout/footer.css";
+
+/* COMPONENTES */
+
 @import "./componentes/banner.css";
-@import "./componentes/botton.css";
+@import "./componentes/button.css";
 @import "./componentes/icon.css";
+@import "./componentes/secao.css";
