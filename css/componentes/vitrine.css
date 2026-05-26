@@ -1,11 +1,17 @@
+.vitrine-container {
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 60px 0;
+}
+
 .vitrine-calcados {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  padding: 40px 20px;
   max-width: 1200px;
   margin: 0 auto;
   align-items: start;
+  padding: 0 20px;
 }
 
 .card-rasteiras,
