@@ -71,3 +71,18 @@
   object-fit: cover;
   display: block;
 }
+
+.banner-final {
+  width: 100%;
+  max-width: 1280px;
+  margin: 60px auto;
+  box-sizing: border-box;
+}
+
+.banner-final img {
+  width: 100%;
+  height: 486px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
