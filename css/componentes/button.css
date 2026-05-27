@@ -9,3 +9,20 @@
 .link-acao:hover {
   color: #000;
 }
+
+.newsletter-form button {
+  height: 48px;
+  padding: 0 32px;
+  background-color: #d11b65;
+  color: #ffffff;
+  border: none;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.newsletter-form button:hover {
+  opacity: 0.8;
+}
