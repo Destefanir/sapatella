@@ -1,0 +1,49 @@
+.atalho-cards {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+  max-width: 1440px;
+  margin: 60px auto;
+  box-sizing: border-box;
+}
+
+.image-card {
+  flex: 1;
+  display: flex;
+}
+
+.image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.double-cards-wrap {
+  flex: 0 0 580px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card-jj {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card-jj-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: #f5f5f5;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-jj-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
