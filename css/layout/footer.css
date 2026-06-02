@@ -1,15 +1,89 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.footer {
+  margin-top: 80px;
+}
+
 .footer-top {
   display: grid;
-  grid-template-columns: 1.2fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr 1.2fr;
+  gap: 60px;
+  padding: 48px 20px;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footer-brand img {
+  width: 170px;
+  margin-bottom: 40px;
 }
 
 .social {
+  width: 130px;
   display: flex;
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.footer-column h3,
+.footer-payments h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  color: #4f4f4f;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
   gap: 16px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #5f5f5f;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.footer-column a:hover {
+  color: #000;
 }
 
 .payments-icons {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+}
+
+.payments-icons img {
+  width: 38px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ddd;
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  color: #4f4f4f;
+  line-height: 1.5;
 }
