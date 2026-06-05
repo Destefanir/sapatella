@@ -85,7 +85,7 @@
   display: block;
 }
 
-.sobre {
+.about-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -95,12 +95,13 @@
   gap: 40px;
 }
 
-.sobre-text {
+.about-content {
   max-width: 480px;
   margin: 0 auto;
 }
 
-.sobre-text .titulo-text {
+.sobre-text,
+.titulo-text {
   font-size: 28px;
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
