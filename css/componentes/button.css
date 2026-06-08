@@ -60,3 +60,15 @@
 .btn-circular:active {
   transform: translateY(-50%) scale(0.95); /* Mantém o centro e dá o efeito de clique */
 }
+
+/* === AS REGRAS NOVAS PARA SEPARAR OS LADOS === */
+
+/* Joga o botão de voltar para a esquerda */
+.btn-prev {
+  left: 0px; /* Ou -20px se você quiser ele metade para fora */
+}
+
+/* Joga o botão de avançar para a direita */
+.btn-next {
+  right: 0px; /* Ou -20px se você quiser ele metade para fora */
+}
