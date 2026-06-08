@@ -26,3 +26,37 @@
 .newsletter-form button:hover {
   opacity: 0.8;
 }
+
+/* 2. O CSS do botão atualizado para centralizar perfeitamente na altura */
+.btn-circular {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #333333;
+  transition:
+    background-color 0.2s ease,
+    transform 0.1s ease;
+
+  /* === POSICIONAMENTO === */
+  position: absolute;
+  right: 0px; /* Joga o botão um pouquinho para fora da borda direita */
+  top: 50%; /* Desce o botão até a metade da seção */
+  transform: translateY(
+    -50%
+  ); /* Puxa o botão de volta para ficar perfeitamente no centro vertical */
+  z-index: 100; /* Mantém ele na frente de tudo */
+}
+
+.btn-circular:hover {
+  background-color: #e4e4e4;
+}
+
+.btn-circular:active {
+  transform: translateY(-50%) scale(0.95); /* Mantém o centro e dá o efeito de clique */
+}
