@@ -1,8 +1,15 @@
 .banner {
+  width: 100%;
+  position: relative;
+
   .banner-link {
     width: 100%;
+    display: block;
+
     img {
       width: 100%;
+      height: auto;
+      display: block;
     }
   }
 }
