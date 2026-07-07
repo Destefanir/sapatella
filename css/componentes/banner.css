@@ -20,14 +20,22 @@
 }
 
 .banner-container {
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: space-between;
   max-width: 1280px;
   height: 466px;
   margin: 0 auto;
   padding: 0 80px;
-  box-sizing: border-box;
+  box-sizing: border-box; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 32px;
+  gap: 80px;
+  height: 466px;
 }
 
 .banner-conteudo {
