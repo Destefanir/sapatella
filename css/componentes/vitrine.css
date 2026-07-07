@@ -5,13 +5,20 @@
 }
 
 .vitrine-calcados {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   max-width: 1200px;
   margin: 0 auto;
   align-items: start;
-  padding: 0 20px;
+  padding: 0 20px; */
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr;
+  gap: 24px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 32px;
+  align-items: start;
 }
 
 .card-rasteiras,
@@ -19,6 +26,8 @@
 .card-tenis {
   display: flex;
   flex-direction: column;
+  height: 330px;
+  object-fit: cover;
 }
 
 .vitrine-calcados img {
